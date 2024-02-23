@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>React MailBox Editor</title>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/trumbowyg/dist/trumbowyg.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.min.js"></script>
+        <link rel="stylesheet" href="bower_components/trumbowyg/dist/ui/trumbowyg.min.css">
+      </head>
+  <body>
+    <div class="container"></div>
+  </body>
+  
+  <script type="text/babel">
+    var Mailbox = React.createClass({
+  render: function () {
+    return <h1>Hello World!</h1>;
+  }
+});
+
+var options = {};
+
+var element = React.createElement(Mailbox, options);
+ReactDOM.render(element, document.querySelector('.container'));
+  </script>
+  
+</html>

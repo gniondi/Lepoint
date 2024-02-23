@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* background-color: rgb(242, 34, 34); */
+
+}
+.navbar {
+    background-color: aqua;
+    width: 100%;
+}
+
+.nav-link {
+   text-decoration: none;
+   text-transform: capitalize;
+   padding: 3px;
+ 
+}  
+.navbar-brand{
+    position: relative;
+
+}
+.nav-item{
+    display: inline-block;
+    border: 1px solid salmon;
+    position: relative;
+}
+.container{
+    border: 5px solid salmon;
+    display: inline-block;
+    text-align: center;
+}
+.container label{
+    font-weight: bold;
+    font-size:18px;
+    text-transform: uppercase;
+}
+.container input{
+    border-style: double;
+    align-self: flex-start;
+}
+/* bouton */
+.btn{
+font-weight: bold;
+border-radius: 5px;
+    background-color: chocolate;
+    border: 1px solid turquoise;
+    padding: 3px;
+}
+/* bouton hover style */
+.btn:hover{
+    background-color: navy;
+    color: white;
+}
